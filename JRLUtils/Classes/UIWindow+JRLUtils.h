@@ -25,6 +25,6 @@
 /**
  *This method returns the current visible view controller managed by the UIWindow
  */
-- (UIViewController *)visibleViewController;
++ (UIViewController *)visibleViewController;
 
 @end
