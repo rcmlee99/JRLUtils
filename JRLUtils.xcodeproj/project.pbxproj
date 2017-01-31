@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECD2145F1E400A5400C92009 /* JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2145E1E400A5400C92009 /* JRLUtils.m */; };
-		ECD214601E400A5400C92009 /* JRLUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECD2145D1E400A5400C92009 /* JRLUtils.h */; };
-		ECD2146A1E400AAD00C92009 /* UIAlertController+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214671E400AAD00C92009 /* UIAlertController+JRLUtils.m */; };
-		ECD2146B1E400AAD00C92009 /* UIWindow+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214691E400AAD00C92009 /* UIWindow+JRLUtils.m */; };
 		ECD2146D1E4010BC00C92009 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ECD2146C1E4010BC00C92009 /* README.md */; };
-		ECD214701E40139700C92009 /* UIViewController+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2146F1E40139700C92009 /* UIViewController+JRLUtils.m */; };
+		ECD2149D1E403F7800C92009 /* JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214961E403F7800C92009 /* JRLUtils.m */; };
+		ECD2149E1E403F7800C92009 /* UIAlertController+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214981E403F7800C92009 /* UIAlertController+JRLUtils.m */; };
+		ECD2149F1E403F7800C92009 /* UIViewController+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2149A1E403F7800C92009 /* UIViewController+JRLUtils.m */; };
+		ECD214A01E403F7800C92009 /* UIWindow+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2149C1E403F7800C92009 /* UIWindow+JRLUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +21,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				ECD214601E400A5400C92009 /* JRLUtils.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,16 +28,16 @@
 
 /* Begin PBXFileReference section */
 		ECD2145A1E400A5400C92009 /* libJRLUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJRLUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD2145D1E400A5400C92009 /* JRLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRLUtils.h; sourceTree = "<group>"; };
-		ECD2145E1E400A5400C92009 /* JRLUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRLUtils.m; sourceTree = "<group>"; };
-		ECD214661E400AAD00C92009 /* UIAlertController+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+JRLUtils.h"; sourceTree = "<group>"; };
-		ECD214671E400AAD00C92009 /* UIAlertController+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+JRLUtils.m"; sourceTree = "<group>"; };
-		ECD214681E400AAD00C92009 /* UIWindow+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JRLUtils.h"; sourceTree = "<group>"; };
-		ECD214691E400AAD00C92009 /* UIWindow+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JRLUtils.m"; sourceTree = "<group>"; };
 		ECD2146C1E4010BC00C92009 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ECD2146E1E40139700C92009 /* UIViewController+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JRLUtils.h"; sourceTree = "<group>"; };
-		ECD2146F1E40139700C92009 /* UIViewController+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JRLUtils.m"; sourceTree = "<group>"; };
-		ECD214711E40145600C92009 /* JRLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRLCommon.h; sourceTree = "<group>"; };
+		ECD214941E403F7800C92009 /* JRLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRLCommon.h; path = Classes/JRLCommon.h; sourceTree = "<group>"; };
+		ECD214951E403F7800C92009 /* JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRLUtils.h; path = Classes/JRLUtils.h; sourceTree = "<group>"; };
+		ECD214961E403F7800C92009 /* JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRLUtils.m; path = Classes/JRLUtils.m; sourceTree = "<group>"; };
+		ECD214971E403F7800C92009 /* UIAlertController+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+JRLUtils.h"; path = "Classes/UIAlertController+JRLUtils.h"; sourceTree = "<group>"; };
+		ECD214981E403F7800C92009 /* UIAlertController+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+JRLUtils.m"; path = "Classes/UIAlertController+JRLUtils.m"; sourceTree = "<group>"; };
+		ECD214991E403F7800C92009 /* UIViewController+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JRLUtils.h"; path = "Classes/UIViewController+JRLUtils.h"; sourceTree = "<group>"; };
+		ECD2149A1E403F7800C92009 /* UIViewController+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JRLUtils.m"; path = "Classes/UIViewController+JRLUtils.m"; sourceTree = "<group>"; };
+		ECD2149B1E403F7800C92009 /* UIWindow+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWindow+JRLUtils.h"; path = "Classes/UIWindow+JRLUtils.h"; sourceTree = "<group>"; };
+		ECD2149C1E403F7800C92009 /* UIWindow+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+JRLUtils.m"; path = "Classes/UIWindow+JRLUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,15 +71,15 @@
 		ECD2145C1E400A5400C92009 /* JRLUtils */ = {
 			isa = PBXGroup;
 			children = (
-				ECD2145D1E400A5400C92009 /* JRLUtils.h */,
-				ECD2145E1E400A5400C92009 /* JRLUtils.m */,
-				ECD214711E40145600C92009 /* JRLCommon.h */,
-				ECD214661E400AAD00C92009 /* UIAlertController+JRLUtils.h */,
-				ECD214671E400AAD00C92009 /* UIAlertController+JRLUtils.m */,
-				ECD214681E400AAD00C92009 /* UIWindow+JRLUtils.h */,
-				ECD214691E400AAD00C92009 /* UIWindow+JRLUtils.m */,
-				ECD2146E1E40139700C92009 /* UIViewController+JRLUtils.h */,
-				ECD2146F1E40139700C92009 /* UIViewController+JRLUtils.m */,
+				ECD214941E403F7800C92009 /* JRLCommon.h */,
+				ECD214951E403F7800C92009 /* JRLUtils.h */,
+				ECD214961E403F7800C92009 /* JRLUtils.m */,
+				ECD214971E403F7800C92009 /* UIAlertController+JRLUtils.h */,
+				ECD214981E403F7800C92009 /* UIAlertController+JRLUtils.m */,
+				ECD214991E403F7800C92009 /* UIViewController+JRLUtils.h */,
+				ECD2149A1E403F7800C92009 /* UIViewController+JRLUtils.m */,
+				ECD2149B1E403F7800C92009 /* UIWindow+JRLUtils.h */,
+				ECD2149C1E403F7800C92009 /* UIWindow+JRLUtils.m */,
 			);
 			path = JRLUtils;
 			sourceTree = "<group>";
@@ -143,11 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD214701E40139700C92009 /* UIViewController+JRLUtils.m in Sources */,
-				ECD2145F1E400A5400C92009 /* JRLUtils.m in Sources */,
-				ECD2146A1E400AAD00C92009 /* UIAlertController+JRLUtils.m in Sources */,
+				ECD2149D1E403F7800C92009 /* JRLUtils.m in Sources */,
+				ECD214A01E403F7800C92009 /* UIWindow+JRLUtils.m in Sources */,
 				ECD2146D1E4010BC00C92009 /* README.md in Sources */,
-				ECD2146B1E400AAD00C92009 /* UIWindow+JRLUtils.m in Sources */,
+				ECD2149E1E403F7800C92009 /* UIAlertController+JRLUtils.m in Sources */,
+				ECD2149F1E403F7800C92009 /* UIViewController+JRLUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
