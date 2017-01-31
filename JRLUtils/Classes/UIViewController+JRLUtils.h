@@ -25,7 +25,7 @@
 /**
  *Present the alert using alert controller style and one dismiss default alert action without handler
  */
-+ (void)jrl_presentAlertWithTitle:(NSString*)title
+- (void)jrl_presentAlertWithTitle:(NSString*)title
                           message:(NSString*)message
                dismissActionTitle:(NSString*)dismissTitle;
 

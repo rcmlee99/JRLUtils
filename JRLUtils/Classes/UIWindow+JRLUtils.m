@@ -21,7 +21,7 @@
 
 @implementation UIWindow (JRLUtils)
 
-+ (UIViewController *)visibleViewController {
+- (UIViewController *)visibleViewController {
     UIViewController *vc = (UIViewController*)[[[UIApplication sharedApplication] keyWindow] rootViewController];
     if ([vc isKindOfClass:[UINavigationController class]]) {
         return [((UINavigationController *) vc) visibleViewController];

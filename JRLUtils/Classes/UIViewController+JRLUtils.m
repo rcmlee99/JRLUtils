@@ -20,7 +20,7 @@
 
 @implementation UIViewController (JRLUtils)
 
-+ (void)jrl_presentAlertWithTitle:(NSString*)title
+- (void)jrl_presentAlertWithTitle:(NSString*)title
                           message:(NSString*)message
                dismissActionTitle:(NSString*)dismissTitle {
     
