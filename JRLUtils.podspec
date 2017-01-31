@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JRLUtils'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This open-source utilities library contains categories that are useful for a wide range of application UIKit'
-  s.description      = 'This open-source utilities library contains categories that are useful for a wide range of application UIKit'
+  s.description      = 'Category for finding the visible view controller in UIWindow, present alert with dismiss action style using Modal Presentation Popover style'
 
   s.homepage         = 'https://github.com/rcmlee99/JRLUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JRLUtils/Classes/**/*'
+  s.source_files = 'JRLUtils/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'JRLUtils' => ['JRLUtils/Assets/*.png']
