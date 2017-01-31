@@ -20,3 +20,4 @@
 #import "UIWindow+JRLUtils.h"
 #import "UIAlertController+JRLUtils.h"
 #import "UIViewController+JRLUtils.h"
+#import "NSString+JRUtils.h"

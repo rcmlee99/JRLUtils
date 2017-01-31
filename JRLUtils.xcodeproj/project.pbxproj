@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECB7028A1E414B9D00FC64C4 /* NSString+JRUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB702891E414B9D00FC64C4 /* NSString+JRUtils.m */; };
 		ECD2146D1E4010BC00C92009 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ECD2146C1E4010BC00C92009 /* README.md */; };
 		ECD2149D1E403F7800C92009 /* JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214961E403F7800C92009 /* JRLUtils.m */; };
 		ECD2149E1E403F7800C92009 /* UIAlertController+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214981E403F7800C92009 /* UIAlertController+JRLUtils.m */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ECB702881E414B9D00FC64C4 /* NSString+JRUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JRUtils.h"; path = "Classes/NSString+JRUtils.h"; sourceTree = "<group>"; };
+		ECB702891E414B9D00FC64C4 /* NSString+JRUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JRUtils.m"; path = "Classes/NSString+JRUtils.m"; sourceTree = "<group>"; };
 		ECD2145A1E400A5400C92009 /* libJRLUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJRLUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD2146C1E4010BC00C92009 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ECD214941E403F7800C92009 /* JRLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRLCommon.h; path = Classes/JRLCommon.h; sourceTree = "<group>"; };
@@ -71,15 +74,17 @@
 		ECD2145C1E400A5400C92009 /* JRLUtils */ = {
 			isa = PBXGroup;
 			children = (
-				ECD214941E403F7800C92009 /* JRLCommon.h */,
 				ECD214951E403F7800C92009 /* JRLUtils.h */,
 				ECD214961E403F7800C92009 /* JRLUtils.m */,
+				ECD214941E403F7800C92009 /* JRLCommon.h */,
 				ECD214971E403F7800C92009 /* UIAlertController+JRLUtils.h */,
 				ECD214981E403F7800C92009 /* UIAlertController+JRLUtils.m */,
 				ECD214991E403F7800C92009 /* UIViewController+JRLUtils.h */,
 				ECD2149A1E403F7800C92009 /* UIViewController+JRLUtils.m */,
 				ECD2149B1E403F7800C92009 /* UIWindow+JRLUtils.h */,
 				ECD2149C1E403F7800C92009 /* UIWindow+JRLUtils.m */,
+				ECB702881E414B9D00FC64C4 /* NSString+JRUtils.h */,
+				ECB702891E414B9D00FC64C4 /* NSString+JRUtils.m */,
 			);
 			path = JRLUtils;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				ECD2146D1E4010BC00C92009 /* README.md in Sources */,
 				ECD2149E1E403F7800C92009 /* UIAlertController+JRLUtils.m in Sources */,
 				ECD2149F1E403F7800C92009 /* UIViewController+JRLUtils.m in Sources */,
+				ECB7028A1E414B9D00FC64C4 /* NSString+JRUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
