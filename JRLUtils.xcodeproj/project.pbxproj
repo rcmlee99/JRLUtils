@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD2145F1E400A5400C92009 /* JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2145E1E400A5400C92009 /* JRLUtils.m */; };
+		ECD214601E400A5400C92009 /* JRLUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECD2145D1E400A5400C92009 /* JRLUtils.h */; };
+		ECD2146A1E400AAD00C92009 /* UIAlertController+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214671E400AAD00C92009 /* UIAlertController+JRLUtils.m */; };
+		ECD2146B1E400AAD00C92009 /* UIWindow+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214691E400AAD00C92009 /* UIWindow+JRLUtils.m */; };
+		ECD2146D1E4010BC00C92009 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ECD2146C1E4010BC00C92009 /* README.md */; };
+		ECD214701E40139700C92009 /* UIViewController+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2146F1E40139700C92009 /* UIViewController+JRLUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECD214581E400A5400C92009 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				ECD214601E400A5400C92009 /* JRLUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECD2145A1E400A5400C92009 /* libJRLUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJRLUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD2145D1E400A5400C92009 /* JRLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRLUtils.h; sourceTree = "<group>"; };
+		ECD2145E1E400A5400C92009 /* JRLUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRLUtils.m; sourceTree = "<group>"; };
+		ECD214661E400AAD00C92009 /* UIAlertController+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+JRLUtils.h"; sourceTree = "<group>"; };
+		ECD214671E400AAD00C92009 /* UIAlertController+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+JRLUtils.m"; sourceTree = "<group>"; };
+		ECD214681E400AAD00C92009 /* UIWindow+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JRLUtils.h"; sourceTree = "<group>"; };
+		ECD214691E400AAD00C92009 /* UIWindow+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JRLUtils.m"; sourceTree = "<group>"; };
+		ECD2146C1E4010BC00C92009 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ECD2146E1E40139700C92009 /* UIViewController+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JRLUtils.h"; sourceTree = "<group>"; };
+		ECD2146F1E40139700C92009 /* UIViewController+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JRLUtils.m"; sourceTree = "<group>"; };
+		ECD214711E40145600C92009 /* JRLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRLCommon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD214571E400A5400C92009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD214511E400A5400C92009 = {
+			isa = PBXGroup;
+			children = (
+				ECD2146C1E4010BC00C92009 /* README.md */,
+				ECD2145C1E400A5400C92009 /* JRLUtils */,
+				ECD2145B1E400A5400C92009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD2145B1E400A5400C92009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2145A1E400A5400C92009 /* libJRLUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD2145C1E400A5400C92009 /* JRLUtils */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2145D1E400A5400C92009 /* JRLUtils.h */,
+				ECD2145E1E400A5400C92009 /* JRLUtils.m */,
+				ECD214711E40145600C92009 /* JRLCommon.h */,
+				ECD214661E400AAD00C92009 /* UIAlertController+JRLUtils.h */,
+				ECD214671E400AAD00C92009 /* UIAlertController+JRLUtils.m */,
+				ECD214681E400AAD00C92009 /* UIWindow+JRLUtils.h */,
+				ECD214691E400AAD00C92009 /* UIWindow+JRLUtils.m */,
+				ECD2146E1E40139700C92009 /* UIViewController+JRLUtils.h */,
+				ECD2146F1E40139700C92009 /* UIViewController+JRLUtils.m */,
+			);
+			path = JRLUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD214591E400A5400C92009 /* JRLUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD214631E400A5400C92009 /* Build configuration list for PBXNativeTarget "JRLUtils" */;
+			buildPhases = (
+				ECD214561E400A5400C92009 /* Sources */,
+				ECD214571E400A5400C92009 /* Frameworks */,
+				ECD214581E400A5400C92009 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRLUtils;
+			productName = JRLUtils;
+			productReference = ECD2145A1E400A5400C92009 /* libJRLUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD214521E400A5400C92009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "JRLee Pty Ltd";
+				TargetAttributes = {
+					ECD214591E400A5400C92009 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECD214551E400A5400C92009 /* Build configuration list for PBXProject "JRLUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECD214511E400A5400C92009;
+			productRefGroup = ECD2145B1E400A5400C92009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD214591E400A5400C92009 /* JRLUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD214561E400A5400C92009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD214701E40139700C92009 /* UIViewController+JRLUtils.m in Sources */,
+				ECD2145F1E400A5400C92009 /* JRLUtils.m in Sources */,
+				ECD2146A1E400AAD00C92009 /* UIAlertController+JRLUtils.m in Sources */,
+				ECD2146D1E4010BC00C92009 /* README.md in Sources */,
+				ECD2146B1E400AAD00C92009 /* UIWindow+JRLUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECD214611E400A5400C92009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECD214621E400A5400C92009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD214641E400A5400C92009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ECD214651E400A5400C92009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD214551E400A5400C92009 /* Build configuration list for PBXProject "JRLUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD214611E400A5400C92009 /* Debug */,
+				ECD214621E400A5400C92009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD214631E400A5400C92009 /* Build configuration list for PBXNativeTarget "JRLUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD214641E400A5400C92009 /* Debug */,
+				ECD214651E400A5400C92009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD214521E400A5400C92009 /* Project object */;
+}
