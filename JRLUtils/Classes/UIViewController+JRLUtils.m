@@ -20,13 +20,13 @@
 
 @implementation UIViewController (JRLUtils)
 
-- (void)jrl_presentAlertWithTitle:(NSString*)title
-                          message:(NSString*)message
-               dismissActionTitle:(NSString*)dismissTitle {
+- (void)presentAlertWithTitle:(NSString*)title
+                      message:(NSString*)message
+           dismissActionTitle:(NSString*)dismissTitle {
     
     UIAlertAction * dimissAction = [UIAlertAction actionWithTitle:dismissTitle style:UIAlertActionStyleDefault handler:NULL];
     
-    UIAlertController * alertController = [UIAlertController jrl_alertWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert inView:self.view actions:@[dimissAction]];
+    UIAlertController * alertController = [UIAlertController alertWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert inView:self.view actions:@[dimissAction]];
     
     [self presentViewController:alertController animated:YES completion:nil];
     

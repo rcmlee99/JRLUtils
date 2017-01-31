@@ -23,12 +23,12 @@
 
 #pragma mark - Public
 
-+ (instancetype)jrl_alertWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle inView:(UIView*)view actions:(NSArray *)actions {
++ (instancetype)alertWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle inView:(UIView*)view actions:(NSArray *)actions {
     
-    return [self jrl_alertWithTitle:title message:message preferredStyle:preferredStyle inView:view offset:CGPointMake(-10, 50) actions:actions];
+    return [self alertWithTitle:title message:message preferredStyle:preferredStyle inView:view offset:CGPointMake(-10, 50) actions:actions];
 }
 
-+ (instancetype)jrl_alertWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle inView:(UIView*)view offset:(CGPoint)point actions:(NSArray *)actions {
++ (instancetype)alertWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle inView:(UIView*)view offset:(CGPoint)point actions:(NSArray *)actions {
     
     UIAlertController * alertController = [UIAlertController alertControllerWithTitle:title
                                                                               message:message
