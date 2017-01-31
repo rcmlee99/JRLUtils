@@ -22,7 +22,9 @@
 
 @interface UIWindow (JRLUtils)
 
-// This method returns the current visible view controller managed by the UIWindow
+/**
+ *This method returns the current visible view controller managed by the UIWindow
+ */
 - (UIViewController *)visibleViewController;
 
 @end

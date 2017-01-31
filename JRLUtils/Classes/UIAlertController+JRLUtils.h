@@ -22,8 +22,9 @@
 
 @interface UIAlertController (JRLUtils)
 
-// Instantiate the Alert Controller with title, message, preferred style and array of UIAlertActions.
-// Sets the alert controller to Modal Presentation Popover style. The Popover Controller will be presented in the view and with offset x,y
+/**
+ *Instantiate Alert Controller with title, message, preferred style and array of UIAlertActions. Sets the alert controller to Modal Presentation Popover style. In iPad, the Popover Alert Controller will be presented in the view and with offset x,y
+ */
 + (instancetype)jrl_alertWithTitle:(NSString *)title
                            message:(NSString *)message
                     preferredStyle:(UIAlertControllerStyle)preferredStyle
@@ -31,8 +32,9 @@
                             offset:(CGPoint)point
                            actions:(NSArray *)actions;
 
-// Instantiate the Alert Controller with title, message, preferred style and array of UIAlertActions.
-// Sets the alert controller to Modal Presentation Popover style. The Popover Controller will be presented in the view and with offset -10,50
+/**
+ *Instantiate Alert Controller with title, message, preferred style and array of UIAlertActions. Sets the alert controller to Modal Presentation Popover style. In iPad, the Popover Alert Controller will be presented in the view and with offset -10,50
+ */
 + (instancetype)jrl_alertWithTitle:(NSString *)title
                            message:(NSString *)message
                     preferredStyle:(UIAlertControllerStyle)preferredStyle
