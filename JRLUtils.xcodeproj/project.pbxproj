@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0D2C4A1E42152F0048DC1C /* NSDate+JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D2C491E42152F0048DC1C /* NSDate+JRLUtils.m */; };
 		ECB7028A1E414B9D00FC64C4 /* NSString+JRUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB702891E414B9D00FC64C4 /* NSString+JRUtils.m */; };
 		ECD2146D1E4010BC00C92009 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ECD2146C1E4010BC00C92009 /* README.md */; };
 		ECD2149D1E403F7800C92009 /* JRLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD214961E403F7800C92009 /* JRLUtils.m */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC0D2C481E42152F0048DC1C /* NSDate+JRLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+JRLUtils.h"; path = "Classes/NSDate+JRLUtils.h"; sourceTree = "<group>"; };
+		EC0D2C491E42152F0048DC1C /* NSDate+JRLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JRLUtils.m"; path = "Classes/NSDate+JRLUtils.m"; sourceTree = "<group>"; };
 		ECB702881E414B9D00FC64C4 /* NSString+JRUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JRUtils.h"; path = "Classes/NSString+JRUtils.h"; sourceTree = "<group>"; };
 		ECB702891E414B9D00FC64C4 /* NSString+JRUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JRUtils.m"; path = "Classes/NSString+JRUtils.m"; sourceTree = "<group>"; };
 		ECD2145A1E400A5400C92009 /* libJRLUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJRLUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +86,8 @@
 				ECD2149A1E403F7800C92009 /* UIViewController+JRLUtils.m */,
 				ECD2149B1E403F7800C92009 /* UIWindow+JRLUtils.h */,
 				ECD2149C1E403F7800C92009 /* UIWindow+JRLUtils.m */,
+				EC0D2C481E42152F0048DC1C /* NSDate+JRLUtils.h */,
+				EC0D2C491E42152F0048DC1C /* NSDate+JRLUtils.m */,
 				ECB702881E414B9D00FC64C4 /* NSString+JRUtils.h */,
 				ECB702891E414B9D00FC64C4 /* NSString+JRUtils.m */,
 			);
@@ -151,6 +156,7 @@
 				ECD2146D1E4010BC00C92009 /* README.md in Sources */,
 				ECD2149E1E403F7800C92009 /* UIAlertController+JRLUtils.m in Sources */,
 				ECD2149F1E403F7800C92009 /* UIViewController+JRLUtils.m in Sources */,
+				EC0D2C4A1E42152F0048DC1C /* NSDate+JRLUtils.m in Sources */,
 				ECB7028A1E414B9D00FC64C4 /* NSString+JRUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
