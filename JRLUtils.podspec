@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JRLUtils'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'This open-source utilities library contains categories that are useful for a wide range of application UIKit'
   s.description      = 'Category for finding the visible view controller in UIWindow, present alert with dismiss action style using Modal Presentation Popover style'
 
